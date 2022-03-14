@@ -1,0 +1,18 @@
+{
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "src",
+  "projects": {
+    "nst-typegoose": {
+      "type": "library",
+      "root": "libs/nst-typegoose",
+      "entryFile": "index",
+      "sourceRoot": "libs/nst-typegoose/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/nst-typegoose/tsconfig.lib.json"
+      }
+    }
+  },
+  "compilerOptions": {
+    "webpack": true
+  }
+}
